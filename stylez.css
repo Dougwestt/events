@@ -36,7 +36,8 @@ h2 {
 }
 
 .content {
-    display: block;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
@@ -72,4 +73,9 @@ margin: 12px;
 
  .card-1 li {
     margin: 12px;
+ }
+
+ .card-2 {
+    width: 1150px;
+    height: fit-content;
  }
