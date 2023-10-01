@@ -76,6 +76,6 @@ margin: 12px;
  }
 
  .card-2 {
-    width: 1150px;
+    width: fit-content;
     height: fit-content;
  }
