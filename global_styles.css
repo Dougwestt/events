@@ -65,6 +65,24 @@ li {
     margin: 6px;
 }
 
+.back-btn-link {
+    text-decoration: none;
+}
+.back-btn {
+    width: 100%;
+    padding: 4px;
+    background-color: rgb(0, 195, 255);
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: all .15s ease-in-out;
+}
+.back-btn:hover {
+    background-color: rgb(0, 119, 155);
+}
+
 @media (min-width: 1280px) {
     .content {
         flex-direction: row;
@@ -74,5 +92,8 @@ li {
     }
     .card {
         width: 20%;
+    }
+    .back-btn {
+        max-width: 100px;
     }
 }
