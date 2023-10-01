@@ -44,7 +44,7 @@ h2 {
 
 .card {
     background: rgb(238, 218, 218);
-    width: 100%;
+    width: auto;
     height: fit-content;
     padding: 15px;
     margin: 5px;
