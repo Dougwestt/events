@@ -1,5 +1,5 @@
 body {
-    background: rgb(183, 225, 240);
+    background: rgb(235, 235, 235);
 }
 
 
@@ -12,7 +12,7 @@ body {
     font-weight: bold;
 }
 
-.uscontent {
+.jpcontent {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -20,8 +20,8 @@ body {
     padding:15px;
 }
 
-.uscard {
-    background: rgb(228, 199, 196);
+.jpcard {
+    background: rgb(218, 177, 177);
     border: 4px solid black;
     padding: 10px;
     justify-content: space-between;
@@ -30,7 +30,7 @@ body {
 
 }
 
-.uscard p {
+.jpcard p {
     display: flex;
     align-items: center;
     justify-content: center;

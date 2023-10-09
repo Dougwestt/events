@@ -1,5 +1,5 @@
 body {
-    background: rgb(183, 225, 240);
+    background: rgb(230, 123, 141);
 }
 
 
@@ -12,7 +12,7 @@ body {
     font-weight: bold;
 }
 
-.uscontent {
+.chcontent {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -20,8 +20,8 @@ body {
     padding:15px;
 }
 
-.uscard {
-    background: rgb(228, 199, 196);
+.chcard {
+    background: rgb(247, 247, 205);
     border: 4px solid black;
     padding: 10px;
     justify-content: space-between;
@@ -30,7 +30,7 @@ body {
 
 }
 
-.uscard p {
+.chcard p {
     display: flex;
     align-items: center;
     justify-content: center;
