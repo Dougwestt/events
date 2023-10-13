@@ -23,12 +23,16 @@ body {
 .uscard {
     background: rgb(228, 199, 196);
     border: 4px solid black;
+    border-radius: 15px;
     padding: 10px;
     justify-content: space-between;
     margin-right: 10px;
     margin-bottom: auto;
+    height: auto;
+    width: auto;
 
 }
+
 
 .uscard p {
     display: flex;
