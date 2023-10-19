@@ -13,10 +13,13 @@ body {
 }
 
 .uscontent {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    row-gap: 20px;
     height: auto;
+    width: auto;
     padding:15px;
 }
 
@@ -26,7 +29,6 @@ body {
     border-radius: 15px;
     padding: 10px;
     justify-content: space-between;
-    margin-right: 10px;
     margin-bottom: auto;
     height: auto;
     width: auto;

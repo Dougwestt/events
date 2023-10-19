@@ -13,9 +13,11 @@ body {
 }
 
 .chcontent {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    row-gap: 20px;
     height: auto;
     padding:15px;
 }
