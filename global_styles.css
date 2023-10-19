@@ -30,10 +30,10 @@ body {
 
 .content {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(1, auto);
     justify-content: center;
     align-items: center;
-    column-gap: 50px;
+    column-gap: 50px;s
     
     
 
